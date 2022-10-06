@@ -6,9 +6,8 @@ window.open = function(t) {
 var Cart = function() {
     var t, e, a = {
             api: {
-                domain: "shop.moonultra.com",
-                apiKey: "ff357e67687198bdacce11f5eda46363",
-                appId: 2
+                domain: "checkout.helzt.com",
+                apiKey: "2164e213db00eb4e717ec262e7f4e2b2",
             },
             classes: {
                 visible: "is-active"
