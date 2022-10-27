@@ -4,6 +4,11 @@ input, select, button {
   outline: 0;
 }
 
+.dukes_square span {
+  user-select: none;
+  pointer-events: none;
+}
+
 /* Disable position absolute on price */
 .shopify-buy__product {
   position: relative !important;
@@ -582,6 +587,11 @@ button.shopify-buy__btn.shopify-buy__btn--cart-checkout:hover {
 .shopify-buy__product__price {
   margin-bottom: 40px;
 }
+@media only screen and (max-width: 767px) {
+  .shopify-buy__product__price {
+    margin-bottom: 0px;
+  }
+}
 
 .shopify-buy__product__actual-price {
   font-size: 26px;
@@ -602,4 +612,10 @@ button.shopify-buy__btn.shopify-buy__btn--cart-checkout:hover {
   align-items: center;
   justify-content: center;
   background-color: transparent !important;
+  user-select: none;
+}
+
+button.shopify-buy__btn.shopify-buy__btn-disabled {
+  opacity: 0.25;
+  cursor: default;
 }
