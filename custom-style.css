@@ -4,6 +4,15 @@ input, select, button {
   outline: 0;
 }
 
+/* Disable position absolute on price */
+.shopify-buy__product {
+  position: relative !important;
+}
+@media (max-width: 499px) {
+  .shopify-buy__product {
+    position: relative !important;
+  }
+}
 
 
 
