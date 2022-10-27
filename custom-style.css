@@ -188,6 +188,7 @@ p.shopify-buy--visually-hidden {
 
   .shopify-buy__cart {
     max-width: 100vw !important;
+    width: 100vw !important;
   }
 }
 
