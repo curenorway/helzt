@@ -549,9 +549,14 @@ button.shopify-buy__btn.shopify-buy__btn--cart-checkout:hover {
 .has-image.shopify-buy__layout-vertical.shopify-buy__product {
   margin-left: 0px;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 /* Price */
+.shopify-buy__product__price {
+  margin-bottom: 40px;
+}
+
 .shopify-buy__product__actual-price {
   font-size: 26px;
   line-height: 100%;
