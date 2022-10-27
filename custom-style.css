@@ -107,6 +107,23 @@ p.shopify-buy--visually-hidden {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 767px) {
+  /* Count */
+  .shopify-buy__cart-toggle__count {
+    font-size: 30px !important;
+  }
+  .shopify-buy__cart-toggle__count::before {
+    font-size: 30px !important;
+  }
+  .shopify-buy__cart-toggle__count::after {
+    font-size: 30px !important;
+  }
+  /* Text */
+  p.shopify-buy--visually-hidden {
+    font-size: 30px !important;
+  }
+}
+
 
 
 /*** CART ***/
