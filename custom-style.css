@@ -195,32 +195,32 @@ p.shopify-buy--visually-hidden {
   /* Mobile font sizes */
 
   .shopify-buy__cart__title {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 24px !important;
+  line-height: 24px !important;
 }
 
 .shopify-buy__cart-item__title {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 22px !important;
+  line-height: 32px !important;
 }
 
 .shopify-buy__cart-item__variant-title {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 22px !important;
+  line-height: 32px !important;
 }
 
 input.shopify-buy__quantity.shopify-buy__cart-item__quantity-input {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 22px !important;
+  line-height: 32px !important;
 }
 button.shopify-buy__btn--seamless.shopify-buy__quantity-decrement,
 button.shopify-buy__btn--seamless.shopify-buy__quantity-increment {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 22px !important;
+  line-height: 32px !important;
 }
 
 .shopify-buy__cart-item__price {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 /* End of mobile font sizes */
