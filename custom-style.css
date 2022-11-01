@@ -196,13 +196,13 @@ input, select, button {
     /* Mobile font sizes */
   
     h2.shopify-buy__cart__title {
-    font-size: 24px !important;
-    line-height: 24px !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
   }
   
   button.shopify-buy__btn--close::after {
-      font-size: 24px !important;
-    line-height: 24px !important;
+      font-size: 30px !important;
+    line-height: 36px !important;
   }
   
   .shopify-buy__cart-item__title {
@@ -669,4 +669,3 @@ input, select, button {
     opacity: 0.25;
     cursor: default;
   }
-  
