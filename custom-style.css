@@ -199,6 +199,11 @@ p.shopify-buy--visually-hidden {
   line-height: 24px !important;
 }
 
+.shopify-buy__btn--close {
+    font-size: 24px !important;
+  line-height: 24px !important;
+}
+
 .shopify-buy__cart-item__title {
   font-size: 22px !important;
   line-height: 32px !important;
@@ -212,15 +217,23 @@ p.shopify-buy--visually-hidden {
 input.shopify-buy__quantity.shopify-buy__cart-item__quantity-input {
   font-size: 22px !important;
   line-height: 32px !important;
+  height: 32px !important;
+  width: 65px !important;
 }
 button.shopify-buy__btn--seamless.shopify-buy__quantity-decrement,
 button.shopify-buy__btn--seamless.shopify-buy__quantity-increment {
   font-size: 22px !important;
   line-height: 32px !important;
+  height: 32px !important;
 }
 
 .shopify-buy__cart-item__price {
   font-size: 22px !important;
+}
+
+.shopify-buy__cart__subtotal__price {
+  font-size: 22px !important;
+  line-height: 32px !important;
 }
 
 /* End of mobile font sizes */
